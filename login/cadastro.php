@@ -12,7 +12,7 @@
 <body>
     <div class="wrapper">
         <h2>Cadastro</h2>
-        <p>Favor inserir login e senha.</p>
+        <p>Favor inserir o nome e o CPF para cadastro.</p>
         <form action="arquivos.php" method="post">
             <div class="form-group">
                 <label>Nome</label>
@@ -21,7 +21,7 @@
             </div>   
             <div class="form-group">
                 <label>CPF</label>
-                <input type="password" name="cpf" class="form-control">
+                <input type="text" name="cpf" class="form-control">
                 <span class="help-block"></span>
             </div>
             <div class="form-group">
